@@ -23,7 +23,7 @@ function nowServing (katzDeli) {
 // used else statement so if array is 0, the string is returned to show noone in line
 
 var array = []; // this is needed later to house the position and person in the line
-function currentLine(katzDeli) { 
+function currentLine(katzDeli) {
   if (katzDeli.length == 0) {  // if the line length is equal to zero, then return the line is empty
     return `The line is currently empty.`;
   } else {
