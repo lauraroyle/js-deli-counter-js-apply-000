@@ -28,12 +28,12 @@ function currentLine(katzDeli) {
     return `The line is currently empty.`;
   } else {
     for (var i = 0; i < katzDeli.length; i++) {
-      array.push(` ${i+1}. ${katzDeli[i]}`);
+      array.push(`${i+1}. ${katzDeli[i]}`);
     }
     return `The line is currently:` + array;
   }
 }
 
-// set variable 'array' to empty
-// function currentLine accepts 'line' as a parameter
-// if the line parameter length is equal to zero
+// function currentLine accepts 'katzDeli' (ie. the current line) as a parameter
+// if the line length is equal to zero, then return the line is empty
+// then used a 'for' loop 
