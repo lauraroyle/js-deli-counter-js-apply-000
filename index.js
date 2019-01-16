@@ -34,7 +34,6 @@ function currentLine(katzDeli) {
   }
 }
 
-
 // function currentLine accepts 'katzDeli' (ie. the current line) as a parameter
 // if the line length is equal to zero, then return the line is empty
 // then used a 'for' loop
